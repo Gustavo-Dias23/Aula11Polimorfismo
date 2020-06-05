@@ -6,7 +6,14 @@ namespace Aula11Polimorfismo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Calculo infoPlayer = new Calculo();
+            System.Console.WriteLine( infoPlayer.Calcular());
+
+            System.Console.WriteLine( infoPlayer.Calcular(75) );
+
+            System.Console.WriteLine( infoPlayer.Calcular(75, 45));
+
+            System.Console.WriteLine( infoPlayer.Calcular("Ezio", "Auditore") );
         }
     }
 }
